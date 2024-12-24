@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rajdhani:wght@300;400;500;600;700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(../img/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-family: "poppins", sans-serif;
+    font-size: 14px;
+    font-weight: 400;   
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: "Rajdhani", serif;
+}
+
+.form.layout{
+    width:100%;
+    height:100vh;
+    background: url(../img/beautyfull.jpg) center center no-repeat;
+    background-size: contain; 
+} 
+
+.container{
+    width: 1140px;
+    height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-inner{
+    width: 60%;
+    background-color: white;
+    display: flex;
+    padding: 30px 20px 30px;
+    border-radius: 18px 0px;
+    opacity: 85;
+}
+
+.left, .right{
+    flex-basis: 50%;    
+}
+
+.left{
+    background: url(../img/flower.jpg) center center no-repeat;
+    background-size: contain;
+} 
+
+.right h3{
+    font-size: 25px;
+    color: darkblue;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+
+.right .name input{
+    width: 49%;
+}
+
+
+.right .name.fname{
+    width: 5px;
+}
+
+.right input{
+    width: 100%;
+    padding: 10px 5px;
+    margin-bottom: 7px;
+}
+
+.right input::placeholder{
+    font-family: poppins;
+}
+
+.right input[type-"date"] {
+    font-family: poppins;
+}
+
+.right select{
+    font-family: poppins;
+}
+
+.right textarea::placeholder{
+    font-family: poppins;
+}
+
+.right.right select{
+    width: 100%; 
+    padding: 10px 5px;
+    margin-bottom: 7px;
+}
+
+.right textarea{
+    width: 100%;
+    padding: 10px 5px;
+    margin-bottom: 7px;
+}
+
+.tc{
+   margin-bottom: 10px; 
+}
+
+.tc input{
+    width: auto;
+    margin-top: -5px;
+}
+
+.tc span a{
+    text-decoration: none;
+}
+.submit-btns input{
+    background-color: darkblue;
+    border: 1px solid darkblue;
+    color: white;
+    font-size: 14px; 
+    text-transform: uppercase;
+}
+
+
+
